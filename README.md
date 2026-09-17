@@ -54,8 +54,20 @@ A framework that tells you what to look at is half a framework. Say when to look
 - A daily, weekly, and monthly review split, so the daily read does not turn into a monthly retro
 - One owner per alert
 
-## The rule underneath all of it
+## 6. One basis per quantity, written down before you need it
 
 Lock one consumption basis in writing before a second data source arrives. When a second vendor's figure shows up later it can appear as a labelled breakout, never as a competing headline. Two authoritative numbers for the same quantity is the fastest way to lose a room.
+
+**A worked example, because the abstract version does not land.** One quantity, impressions. Two systems inside the same vendor: a reporting API and the platform's own dashboard. Same campaigns, same spend, same view counts, impression totals roughly three times apart. Neither system was broken. They were counting different things and both were entitled to the word.
+
+What that costs if you have not decided in advance: every efficiency rate built on impressions moves when you pick, and picking under pressure looks like picking the flattering one.
+
+What to write down, once, before the second source exists:
+
+- Which system is authoritative for this quantity, and the reason in one sentence
+- Which fields you take from the other system anyway, if any, and why that is not incoherent
+- What happens to published history when the basis changes
+
+In the example above the API won the impressions basis because it counted the full set, and cost stayed on the dashboard because the API returns a zero cost field. That split looks arbitrary until the reason is written next to it, which is the whole argument for writing it down.
 
 Blank version in [TEMPLATE.md](TEMPLATE.md).
